@@ -1,0 +1,294 @@
+@import url("fonts/YanoneKaffeesatz.css");
+@import url("fonts/OpenSans.css");
+
+:root {
+  --Caveat: "Caveat", cursive;
+  --YanoneKaffeesatz: "Yanone Kaffeesatz", sans-serif;
+  --OpenSans: "Open Sans", sans-serif;
+  --chinese:"chinese"
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+
+
+html {
+  background-color: whitesmoke;
+  
+}
+
+/* Inicio desarrollo */
+
+
+  header {
+  background-color: whitesmoke;
+  }
+  .menu_encabezadop1{
+    width: 100%;
+    background-color: #744f28;
+    display: flex;
+  }
+
+  .conteiner{
+    
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+  }
+
+  .social{
+    display: flex;
+  }
+    .social ul{
+      display: flex;
+      list-style: none;
+      padding: 5px;
+    }
+
+    .social ul a {
+      margin: 0 10px;
+      display: block;
+    }
+      .social ul a i{
+        font-size: 25pt;
+        color: #eae3d7;
+      }
+
+        .social ul li:hover i:before{
+          transition: .7s;
+        }
+        .social ul li:nth-child(1):hover i:before{
+          color: #3b5999;
+        }
+
+        .social ul li:nth-child(2):hover i:before{
+          color: #55acee;
+        }
+
+        .social ul li:nth-child(3):hover i:before {
+          color: #43c352;
+        }
+
+        .social ul li:nth-child(4):hover i:before {
+          color: #dc2a74;
+        }
+    
+      .user{
+        display: flex;
+        padding:5px;
+        margin-left: 32.2rem;
+      }
+
+        .user a{
+          color: #eae3d7;
+          padding: 5px;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .user a:hover{
+          color: #fdb822;
+          transition: .3s;
+        }
+          .user a i{
+            font-size: 25pt;
+          }
+
+        .user a:nth-child(2){
+          font-family: var(--OpenSans);
+          padding-top: 12px;
+        }
+        
+        .shopping i{
+          padding: 10px;
+          font-size: 25pt;
+          color: #eae3d7;
+        }
+
+
+
+    .menuconteiner{
+      
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+      
+
+      .menuconteiner .menu{
+        width: 100%;
+        display: contents;
+        
+      }
+
+      .menuconteiner nav{
+        display: flex;
+        padding: 2rem;
+        height: 100%;
+        box-sizing: border-box;
+        padding-top: 4.3rem;
+      } 
+
+    .menuconteiner .logo img {
+      width: 90%;
+    }
+
+      .logo a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    .menuconteiner nav a:first-child{
+      border-right: 2px solid gainsboro;
+    }
+
+    .menuconteiner p{
+      color: #744f28;
+      padding: 0.2rem 1.8rem;
+      letter-spacing: 2px;
+      font-size: 11pt;
+      font-family: var(--OpenSans);
+      font-style: normal;
+      font-weight: 800;
+      box-sizing: border-box;
+    } 
+
+  .menuconteiner p:hover{
+    color: #fdb822;
+    transition: .3s;
+  }
+
+.Nov{
+  padding-top: 20px;
+  margin-left: 42.6%;
+  font-family: var(--OpenSans);
+  color: #744f28;
+  font-weight: 800;
+}
+
+.hero hr{
+  margin-top: 50px;
+}
+
+
+
+
+
+footer{
+  background-color: #eae3d7;
+  margin-top: 100px;
+}
+  .header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px
+  }
+
+    .logo span{
+      background-image: url("../img/static/Logo/LaBaguette-sinfondo-footers.png");
+      height: 90px;
+      max-height: 40px;
+      width: 180px;
+      background-size: cover;
+    }
+
+    .shop-cart{
+      height: 50px;
+      width: 230px;
+      
+    }
+
+      .shop-cart ul {
+        display: flex;
+        position: absolute;
+        margin-left: 114px;
+        margin-top: 25px;
+        transform: translate(-50%, -50%);
+      }
+
+      .shop-cart ul li {
+          list-style: none;
+        }
+
+        .shop-cart  ul a {
+          margin: 0 10px;
+          display: block;
+        }
+          .shop-cart  ul a i{
+            font-size: 25pt;
+            color: #744f28;
+          }
+    
+            .shop-cart ul li:hover i:before{
+              transition: .7s;
+            }
+            .shop-cart ul li:nth-child(1):hover i:before{
+              color: #3b5999;
+            }
+    
+            .shop-cart ul li:nth-child(2):hover i:before{
+              color: #55acee;
+            }
+    
+            .shop-cart ul li:nth-child(3):hover i:before {
+              color: #43c352;
+            }
+    
+            .shop-cart ul li:nth-child(4):hover i:before {
+              color: #dc2a74;
+            }
+
+
+  .section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+  }
+
+    .section div{
+      display: flex;
+      flex-direction: column;
+    }
+
+      div h2{
+        font-family: var(--OpenSans);
+        font-size: 12pt;
+        color: #744f28;
+        padding: 10px 0;
+      }
+
+        a{
+          color: white;
+          text-decoration: none;
+          padding: 5px;
+          font-family: var(--OpenSans);
+        }
+
+          a:hover{
+            color: #fdb822;
+            transition: .3s;
+          }
+
+  .Rights{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #744f28;
+    color: white;
+    
+  }
