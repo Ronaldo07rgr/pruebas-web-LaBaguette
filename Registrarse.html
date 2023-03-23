@@ -29,24 +29,23 @@
 
                 <div class="c-imagen">
                     <div>
-                        <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Login/Foto%20Login.jpg?raw=true">
+                        <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Login/Signup/Foto%20signup.jpg?raw=true">
                     </div>
                 </div>
 
                 <div class="c-formulario"> 
                     <div class="inputs">
-                        <div>
+                        <div class="join">
                             <div>
                                 <p>Unete a nuestra familia</p>
                             </div>
                         </div>
                         
-                        <form action="LaBaguette.html" method="GET"> 
                             <div>
+                                <form action="LaBaguette.html" method="GET">
                                     <label for="NyA">Nombres y Apellidos</label>
                                     <input type="text" id="NyA" placeholder="Dijite sus Nombres y Apellidos" required>
                             </div>
-
                             <div>
                                 <label for="documento">Tipo de documento</label>
                                 <select name="select" required>        
@@ -54,42 +53,49 @@
                                     <option value="value2" selected>Cedula Extranjera</option>  
                                     <option value="value3" selected>Tarjeta De Identidad</option>              
                                     <option value="" selected disabled>Selecciones Tipo De Documento</option> 
-                                </select>        
+                                </select>   
                             </div>
                             <div>
-                                    <label for="ndocumento">Numero de documento</label>
-                                    <input type="number" id="ndocumento" placeholder="Dijite su documento"required>
+                                <label for="ndocumento">Numero de documento</label>
+                                <input type="number" id="ndocumento" placeholder="Dijite su documento"required>
                             </div> 
                             <div>
                                 <label for="fecha">Fecha de nacimiento</label>
                                 <input type="date" id="fecha" required>
                             </div> 
                             <div>
-                                <label for="fecha">Fecha de nacimiento</label>
-                                <input type="date" id="fecha" required>
-                            </div>
-
-
-
-
-
+                                <label for="fecha">Direccion de residencia</label>
+                                <input type="text" id="direc"placeholder="Dijite direccion de residencia" required>
+                            </div> 
+                            <div>
+                                <label for="fecha">Numero de celular</label>
+                                <input type="number" id="celular"placeholder="Dijite su numero de celuar" required>
+                            </div> 
+                            <div>
+                                <label for="fecha">Correo electronico</label>
+                                <input type="text" id="correo" placeholder="Dijite un correo electronico"required> 
+                            </div> 
+                            <div>
+                                <label for="fecha">Definir una contraseña</label>
+                                <input type="password" id="defcontr"placeholder="Dijite una contraseña" required>  
+                            </div> 
 
                             <div class="access">
-                                <div class="reCAPCHAT">
-                                        
-                                </div>
+
                                 <div>
                                     <div>
-                                            <input class="botons" type="submit" value="INGRESAR">
-                                    </div>
-                                    </div>
-                                    <div>
-                                        <p>¿Olvidaste tu contraseña?<a href=""> recuperala dando click aquí </a></p> 
-                                        <p>¿No Tienes una cuenta? <a href="">registrate dando click aqui</a></p>
+                                        <input class="botons" type="submit" value="UNIRME">
                                     </div>
                                 </div>
+                                <div>
+                                    <p>¿Ya formas parte de nuestra familia? <a href="IniciarSesion.html">inicia sesion dando click aqui</a></p>
+                                </div>
+                            </div>
+
+                        </div>
+
                         </form>
-                    </div>
+                    
                 </div>
             </div>
         </main>
