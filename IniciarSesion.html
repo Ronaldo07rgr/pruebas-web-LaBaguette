@@ -35,27 +35,27 @@
 
                 <div class="c-formulario"> 
                     <div class="inputs">
-                        <div>
+                        <div class="welcome">
                             <div>
                                 <p>Bienvenido</p>
                             </div>
                         </div>
-                        
+                        <form action="LaBaguette.html" method="GET">
                             <div>
-                                <form action="LaBaguette.html" method="GET">
-                                    <label for="documento">Tipo de documento</label>
-                                    <select name="select" required>        
-                                        <option value="value1" selected>Cedula De Ciudadania</option>
-                                        <option value="value2" selected>Cedula Extranjera</option>  
-                                        <option value="value3" selected>Tarjeta De Identidad</option>              
-                                        <option value="" selected disabled>Selecciones Tipo De Documento</option> 
-                                    </select>
-                                
+                                <label for="documento">Tipo de documento</label>
+                                <select name="select" required>        
+                                    <option value="value1" selected>Cedula De Ciudadania</option>
+                                    <option value="value2" selected>Cedula Extranjera</option>  
+                                    <option value="value3" selected>Tarjeta De Identidad</option>              
+                                    <option value="" selected disabled>Selecciones Tipo De Documento</option> 
+                                </select>                            
                             </div>
+
                             <div>
                                 <label for="n-documento">Número de documento</label>
                                 <input type="number" id="tentacles" placeholder="Dijite numero de identificación" required>
                             </div>
+
                             <div>
                                 <label for="contraseña">Contraseña</label>
                                 <input type="password" id="password" placeholder="Dijite su contraseña"required>
