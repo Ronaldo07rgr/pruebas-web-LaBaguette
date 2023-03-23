@@ -57,66 +57,75 @@ html {
           width: 1146px;
         }
 
-    .conteiner .c-formulario{
-      
+    .conteiner .c-formulario{   
       padding-top: 2.5rem;
     }
 
       .c-formulario .inputs{
         background-color: rgb(234, 227, 215);
-        width: 485px;
+        width: 520px;
         height: 770px;
         margin-left: 1.7rem;
       }
-        .inputs div:nth-child(1){
-          display: flex;
-          justify-content:center;
-          align-items: center;
+      .inputs .welcome{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+      }
+        .inputs .welcome div{
+          width: 250px;
+          background-color: #fff;
         }
-          .inputs div:nth-child(1) div:nth-child(1){
-            width: 250px;
-            background-color: #fff;
-          }
-            .inputs div:nth-child(1) div:nth-child(1) p{
-              color: #744F28;
-              font-weight: bold;
-              font-family: var(--OpenSans);
-              font-size: 14pt;
-            }
-
-          .inputs div:nth-child(2) {
-            padding: 10px;
-            margin-top: 120px;
+          .inputs div:nth-child(1) div:nth-child(1) p{
+            color: #744F28;
+            font-weight: bold;
+            font-family: var(--OpenSans);
+            font-size: 14pt;
           }
 
-        .inputs label,input{
+
+          .inputs form > div:nth-child(1) {
+            margin-top: 110px;
+          }
+
+          .inputs form > div:nth-child(2),div:nth-child(3){
+            margin-top: 50px;
+          }
+
+        .inputs label,input,select{
           color: #333333;
           font-family: var(--OpenSans);
           font-weight: bold;
           font-size: 11pt;
+          margin-top: 33px;
+          padding:10px;
         }
 
         .inputs select,input{
           background-color: #744F2875;
           color: #EAE3D7;
           font-family: var(--OpenSans);
+          font-size: 10pt;
           font-weight: bold;
           margin-left: 35px;
+          margin-top: 35px;
           width: 272px;
-          height: 33px;
+          height: 37px;
           border-radius: 10px;
           border: none;
           text-align: -webkit-center;
           outline: none;
+          display: inline-block;
+          vertical-align: middle;
         }
 
-        .inputs div:nth-child(3),div:nth-child(4){
-          padding: 10px;
-          margin-top: 70px;
+        .inputs label{
+          display: inline-block;
+          width: 185px;
+          vertical-align: middle;
         }
-          .inputs div:nth-child(3) input{
-            margin-left: 10px;
-          }
+
           ::placeholder { color: #EAE3D7; }
 
           input[type=number]::-webkit-inner-spin-button, 
@@ -125,34 +134,32 @@ html {
                  -webkit-appearance: none; 
                  margin: 0; 
                 }
-        
-        .inputs div:nth-child(4) input{
-          margin-left: 93px;
-        }
+      
 
         .inputs input:focus,select:focus{
           border: 1px solid white;
           box-shadow: 0 0 2px 2px #744F2870;
         }
 
-    .conteiner .access{
+    .conteiner .inputs .access{
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;    
       margin: 10px; 
-    }    
+    }      
       .access .reCAPCHAT{
         margin-top: 35px;
         border: 1px solid #744F28;
+        margin-left: 20px;
         height: 65px;
         width: 250px;
       }
-      .access div:nth-child(2){
+      .inputs .access div:nth-child(2){
         width: 250px;
-        margin-top: 35px;
+        padding-top: 25px;
       }
-        .access div:nth-child(2) input{
+        .inputs .access div:nth-child(2) input{
           height: 65px;
           margin: 0px;
           border-radius: 30px;
@@ -170,7 +177,7 @@ html {
         display: contents;
       }
         .access div:nth-child(3) p{
-          padding: 5px;
+          padding: 15px;
           color: #333333;
         }
           .access div:nth-child(3) p a{
@@ -178,6 +185,5 @@ html {
           }
             .access div:nth-child(3) a:hover{
               font-weight: bold;
+              text-decoration: underline;
             }
-        
-
