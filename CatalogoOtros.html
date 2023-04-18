@@ -80,10 +80,6 @@
                                     <button class="button-option" id="button2" onclick="selectButton(this)">Domicilio</button>
                                     <button class="button-option" id="button3" onclick="selectButton(this)">Ir a la tienda</button>
                                   </div>
-                                  <hr>
-                                  <div>
-                                    <button id="subtotal-button">Subtotal: $0.000</button>
-                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -138,8 +134,9 @@
                             <nav id="menu">
                                 <ul>
                                   <li><a href="#" onclick="mostrarCatalogo('novedades')">Novedades</a></li>
-                                  <li><a href="#" onclick="mostrarCatalogo('panes')">Panes</a></li>
-                                  <li><a href="#" onclick="mostrarCatalogo('galletas')">Galletas</a></li>
+                                  <li><a href="#" onclick="mostrarCatalogo('dulces')">Dulces</a></li>
+                                  <li><a href="#" onclick="mostrarCatalogo('empaquetados')">Paquetes</a></li>
+                                  <li><a href="#" onclick="mostrarCatalogo('Bebidas')">Bebidas</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -151,225 +148,26 @@
                         <div class="row">
                             <div class="col">
                                 <div class="slider">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Baguette/Baguette%20(1).webp?raw=true" class="active">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Baguette/Baguette%20(2).webp?raw=true">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/Chocolate%20en%20leche/Chocolateenleche%20(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/Chocolate%20en%20leche/Chocolateenleche%20(2).webp?raw=true">
                                 </div>
                                 <div class="product-info">
-                                  <h3>Baguette</h3>
-                                  <p class="precio">$5000</p>
-                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
-                                </div>
-                                <div class="popup">
-                                  <div class="popup-content">
-                                    <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Baguette/Baguette%20(1).webp?raw=true" >
-                                    </div>
-                                    <div class="product-details">
-                                      <div class="product-header">
-                                        <h3>Baguette</h3>
-                                        <button class="close"><i class="fas fa-times"></i></button>
-                                      </div>
-                                      <p>Pan elaborado con técnicas artesanales y preferentes (levaduras naturales), de crecimiento lento, con todos los beneficios de la harina de centeno.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
-                                      <p><b>Cantidad disponible:</b> 10</p>
-                                      <button class="add-to-cart1">Agregar al carrito</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div class="col">
-                                <div class="slider">
-                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Pan%20de%20la%20abuela/Pan%20de%20la%20abuela%20(1).webp?raw=true" class="active">
-                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Pan%20de%20la%20abuela/Pan%20de%20la%20abuela%20(2).webp?raw=true">
-                                </div>
-                                <div class="product-info">
-                                  <h3>Pan de la abuela</h3>
-                                  <p class="precio">$2000</p>
-                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
-                                </div>
-                                <div class="popup">
-                                  <div class="popup-content">
-                                    <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Pan%20de%20la%20abuela/Pan%20de%20la%20abuela%20(1).webp?raw=true">
-                                    </div>
-                                    <div class="product-details">
-                                      <div class="product-header">
-                                        <h3>Pan de la abuela</h3>
-                                        <button class="close"><i class="fas fa-times"></i></button>
-                                      </div>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
-                                      <p><b>Cantidad disponible:</b> 10</p>
-                                      <button class="add-to-cart1">Agregar al carrito</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col">
-                                <div class="slider">
-                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Pan%20con%20queso/Pan%20con%20queso%20(1).webp?raw=true" class="active">
-                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Pan%20con%20queso/Pan%20con%20queso%20(2).webp?raw=true">
-                                </div>
-                                <div class="product-info">
-                                  <h3>Pan con queso</h3>
-                                  <p class="precio">$2000</p>
-                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
-                                </div>
-                                <div class="popup">
-                                  <div class="popup-content">
-                                    <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Pan%20con%20queso/Pan%20con%20queso%20(1).webp?raw=true">
-                                    </div>
-                                    <div class="product-details">
-                                      <div class="product-header">
-                                        <h3>Pan con queso</h3>
-                                        <button class="close"><i class="fas fa-times"></i></button>
-                                      </div>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
-                                      <p><b>Cantidad disponible:</b> 10</p>
-                                      <button class="add-to-cart1">Agregar al carrito</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                          
-                              <div class="col">
-                                <div class="slider">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Pan%20de%20arequipe/Pan%20de%20arequipe%20(1).webp?raw=true" class="active">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Pan%20de%20arequipe/Pan%20de%20arequipe%20(2).webp?raw=true">
-                                </div>
-                                <div class="product-info">
-                                  <h3>Pan de arequipe</h3>
-                                  <p class="precio">$2000</p>
-                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
-                                </div>
-                                <div class="popup">
-                                  <div class="popup-content">
-                                    <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Pan%20de%20arequipe/Pan%20de%20arequipe%20(1).webp?raw=true">
-                                    </div>
-                                    <div class="product-details">
-                                      <div class="product-header">
-                                        <h3>Pan de arequipe</h3>
-                                        <button class="close"><i class="fas fa-times"></i></button>
-                                      </div>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
-                                      <p><b>Cantidad disponible:</b> 10</p>
-                                      <button class="add-to-cart1">Agregar al carrito</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col">
-                                <div class="slider">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Pan%20con%20queso%20y%20jam%C3%B3n/Pan%20con%20queso%20y%20jam%C3%B3n%20(1).webp?raw=true" class="active">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Pan%20con%20queso%20y%20jam%C3%B3n/Pan%20con%20queso%20y%20jam%C3%B3n%20(2).webp?raw=true">
-                                </div>
-                                <div class="product-info">
-                                  <h3>Pan con queso y jamón</h3>
-                                  <p class="precio">$3000</p>
-                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
-                                </div>
-                                <div class="popup">
-                                  <div class="popup-content">
-                                    <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Pan%20con%20queso%20y%20jam%C3%B3n/Pan%20con%20queso%20y%20jam%C3%B3n%20(1).webp?raw=true">
-                                    </div>
-                                    <div class="product-details">
-                                      <div class="product-header">
-                                        <h3>Pan con queso y jamón</h3>
-                                        <button class="close"><i class="fas fa-times"></i></button>
-                                      </div>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
-                                      <p><b>Cantidad disponible:</b> 10</p>
-                                      <button class="add-to-cart1">Agregar al carrito</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col">
-                                <div class="slider">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Croissant/Croissant%20(1).webp?raw=true" class="active">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Croissant/Croissant%20(2).webp?raw=true">
-                                </div>
-                                <div class="product-info">
-                                  <h3>Croissant</h3>
+                                  <h3>Chocolate en leche  </h3>
                                   <p class="precio">$1500</p>
                                   <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
                                 </div>
                                 <div class="popup">
                                   <div class="popup-content">
                                     <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Novedades/Croissant/Croissant%20(1).webp?raw=true">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/Chocolate%20en%20leche/Chocolateenleche%20(1).webp?raw=true">
                                     </div>
                                     <div class="product-details">
                                       <div class="product-header">
-                                        <h3>Croissant</h3>
+                                        <h3>Chocolate en leche  </h3>
                                         <button class="close"><i class="fas fa-times"></i></button>
                                       </div>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
-                                      <p><b>Cantidad disponible:</b> 10</p>
-                                      <button class="add-to-cart1">Agregar al carrito</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-              <div class="product-catalog" id="panes" style="display: none;">
-                <div class="hero">
-                    <div class="conteiner">
-                        <div class="Nov">
-                            <p>PANES</p>
-                        </div>
-                        <hr>
-                    </div>
-                    <div id="nav-menu">
-                        <div class="conteiner" style="position: relative;">
-                            <button id="menu-button"><i class="fa fa-bars"></i></button>
-                            <nav id="menu">
-                                <ul>
-                                  <li><a href="#" onclick="mostrarCatalogo('novedades')">Novedades</a></li>
-                                  <li><a href="#" onclick="mostrarCatalogo('panes')">Panes</a></li>
-                                  <li><a href="#" onclick="mostrarCatalogo('galletas')">Galletas</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="news" style="padding-top: 70px;">
-                    <div class="conteiner">
-                        <div class="row">
-                            <div class="col">
-                                <div class="slider">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/Bu%C3%B1uelos/bu%C3%B1uelos(1).webp?raw=true" class="active">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/Bu%C3%B1uelos/bu%C3%B1uelos%20(2).webp?raw=true">
-                                </div>
-                                <div class="product-info">
-                                  <h3>Buñuelos</h3>
-                                  <p class="precio">$700</p>
-                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
-                                </div>
-                                <div class="popup">
-                                  <div class="popup-content">
-                                    <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/Bu%C3%B1uelos/bu%C3%B1uelos(1).webp?raw=true" >  
-                                    </div>
-                                    <div class="product-details">
-                                      <div class="product-header">
-                                        <h3>Buñuelos</h3>
-                                        <button class="close"><i class="fas fa-times"></i></button>
-                                      </div>
-                                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil maiores vitae, id explicabo nostrum sapiente alias eveniet nulla, ducimus praesentium ad provident. Porro ad magni rem officiis voluptates ab obcaecati?</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quod soluta id, illo eaque, qui illum a quasi assumenda hic perspiciatis ut asperiores, natus deserunt sed culpa minus officiis quos.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
                                       <p><b>Cantidad disponible:</b> 10</p>
                                       <button class="add-to-cart1">Agregar al carrito</button>
                                     </div>
@@ -379,310 +177,26 @@
 
                               <div class="col">
                                 <div class="slider">
-                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/Almojabanas/Almojabana%20(1).webp?raw=true" class="active">
-                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/Almojabanas/Almojabana%20(2).webp?raw=true">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/Nevado%20de%20cafe/Nevadodecafe%20(1).webp?raw=true" class="active">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/Nevado%20de%20cafe/Nevadodecafe%20(2).webp?raw=true">
                                 </div>
                                 <div class="product-info">
-                                  <h3>Almojábanas </h3>
-                                  <p class="precio">$700</p>
-                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
-                                </div>
-                                <div class="popup">
-                                  <div class="popup-content">
-                                    <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/Almojabanas/Almojabana%20(1).webp?raw=true">
-                                    </div>
-                                    <div class="product-details">
-                                      <div class="product-header">
-                                        <h3>Almojábanas </h3>
-                                        <button class="close"><i class="fas fa-times"></i></button>
-                                      </div>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
-                                      <p><b>Cantidad disponible:</b> 10</p>
-                                      <button class="add-to-cart1">Agregar al carrito</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col">
-                                <div class="slider">
-                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/Bizcocho%20de%20achira/Bizcocho%20(1).webp?raw=true" class="active">
-                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/Bizcocho%20de%20achira/Bizcocho%20(2).webp?raw=true">
-                                </div>
-                                <div class="product-info">
-                                  <h3>Bizcocho de achira</h3>
-                                  <p class="precio">$200</p>
-                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
-                                </div>
-                                <div class="popup">
-                                  <div class="popup-content">
-                                    <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/Bizcocho%20de%20achira/Bizcocho%20(1).webp?raw=true">
-                                    </div>
-                                    <div class="product-details">
-                                      <div class="product-header">
-                                        <h3>Bizcocho de achira</h3>
-                                        <button class="close"><i class="fas fa-times"></i></button>
-                                      </div>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
-                                      <p><b>Cantidad disponible:</b> 10</p>
-                                      <button class="add-to-cart1">Agregar al carrito</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                          
-                              <div class="col">
-                                <div class="slider">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/bizcocho%20de%20cuajada/Bizcochodecuajada%20(1).webp?raw=true" class="active">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/bizcocho%20de%20cuajada/Bizcochodecuajada%20(2).webp?raw=true">
-                                </div>
-                                <div class="product-info">
-                                  <h3>Bizcocho de cuajada </h3>
-                                  <p class="precio">$200</p>
-                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
-                                </div>
-                                <div class="popup">
-                                  <div class="popup-content">
-                                    <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/bizcocho%20de%20cuajada/Bizcochodecuajada%20(1).webp?raw=true">
-                                    </div>
-                                    <div class="product-details">
-                                      <div class="product-header">
-                                        <h3>Bizcocho de cuajada </h3>
-                                        <button class="close"><i class="fas fa-times"></i></button>
-                                      </div>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
-                                      <p><b>Cantidad disponible:</b> 10</p>
-                                      <button class="add-to-cart1">Agregar al carrito</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col">
-                                <div class="slider">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/Pan%20de%20bono/Pandebono%20(1).webp?raw=true" class="active">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/Pan%20de%20bono/Pandebono%20(2).webp?raw=true">
-                                </div>
-                                <div class="product-info">
-                                  <h3>Pan de bono </h3>
-                                  <p class="precio">$800</p>
-                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
-                                </div>
-                                <div class="popup">
-                                  <div class="popup-content">
-                                    <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/Pan%20de%20bono/Pandebono%20(1).webp?raw=true">
-                                    </div>
-                                    <div class="product-details">
-                                      <div class="product-header">
-                                        <h3>Pan de bono </h3>
-                                        <button class="close"><i class="fas fa-times"></i></button>
-                                      </div>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
-                                      <p><b>Cantidad disponible:</b> 10</p>
-                                      <button class="add-to-cart1">Agregar al carrito</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col">
-                                <div class="slider">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/Pan%20de%20yuca/Pandeyuca%20(1).webp?raw=true" class="active">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/Pan%20de%20yuca/Pandeyuca%20(2).webp?raw=true">
-                                </div>
-                                <div class="product-info">
-                                  <h3>Pan de yuca</h3>
-                                  <p class="precio">$700</p>
-                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
-                                </div>
-                                <div class="popup">
-                                  <div class="popup-content">
-                                    <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Pan/1/Pan%20de%20yuca/Pandeyuca%20(1).webp?raw=true">
-                                    </div>
-                                    <div class="product-details">
-                                      <div class="product-header">
-                                        <h3>Pan de yuca</h3>
-                                        <button class="close"><i class="fas fa-times"></i></button>
-                                      </div>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
-                                      <p><b>Cantidad disponible:</b> 10</p>
-                                      <button class="add-to-cart1">Agregar al carrito</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-              <div class="product-catalog" id="galletas" style="display: none;">
-                <div class="hero">
-                    <div class="conteiner">
-                        <div class="Nov">
-                            <p>GALLETAS</p>
-                        </div>
-                        <hr>
-                    </div>
-                    <div id="nav-menu">
-                        <div class="conteiner" style="position: relative;">
-                            <button id="menu-button"><i class="fa fa-bars"></i></button>
-                            <nav id="menu">
-                                <ul>
-                                  <li><a href="#" onclick="mostrarCatalogo('novedades')">Novedades</a></li>
-                                  <li><a href="#" onclick="mostrarCatalogo('panes')">Panes</a></li>
-                                  <li><a href="#" onclick="mostrarCatalogo('galletas')">Galletas</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="news" style="padding-top: 70px;">
-                    <div class="conteiner">
-                        <div class="row">
-                            <div class="col">
-                                <div class="slider">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Cucas/Cucas%20(1).webp?raw=true" class="active">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Cucas/Cucas%20(2).webp?raw=true">
-                                </div>
-                                <div class="product-info">
-                                  <h3>Cucas</h3>
-                                  <p class="precio">$500</p>
-                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
-                                </div>
-                                <div class="popup">
-                                  <div class="popup-content">
-                                    <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Cucas/Cucas%20(1).webp?raw=true">
-                                    </div>
-                                    <div class="product-details">
-                                      <div class="product-header">
-                                        <h3>Cucas</h3>
-                                        <button class="close"><i class="fas fa-times"></i></button>
-                                      </div>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat assumenda esse illum expedita quos architecto ut. Esse exercitationem officiis reprehenderit sunt, iste rem. Repudiandae molestiae, natus impedit pariatur maxime debitis?</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
-                                      <p><b>Cantidad disponible:</b> 10</p>
-                                      <button class="add-to-cart1">Agregar al carrito</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div class="col">
-                                <div class="slider">
-                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Panderos/Panderos%20(1).webp?raw=true" class="active">
-                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Panderos/Panderos%20(2).webp?raw=true">
-                                </div>
-                                <div class="product-info">
-                                  <h3>Panderos</h3>
-                                  <p class="precio">$500</p>
-                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
-                                </div>
-                                <div class="popup">
-                                  <div class="popup-content">
-                                    <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Panderos/Panderos%20(1).webp?raw=true">
-                                    </div>
-                                    <div class="product-details">
-                                      <div class="product-header">
-                                        <h3>Panderos</h3>
-                                        <button class="close"><i class="fas fa-times"></i></button>
-                                      </div>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
-                                      <p><b>Cantidad disponible:</b> 10</p>
-                                      <button class="add-to-cart1">Agregar al carrito</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col">
-                                <div class="slider">
-                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Merengos/Merengos%20(1).webp?raw=true" class="active">
-                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Merengos/Merengos%20(2).webp?raw=true">
-                                </div>
-                                <div class="product-info">
-                                  <h3>Merengos</h3>
-                                  <p class="precio">$400</p>
-                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
-                                </div>
-                                <div class="popup">
-                                  <div class="popup-content">
-                                    <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Merengos/Merengos%20(1).webp?raw=true">
-                                    </div>
-                                    <div class="product-details">
-                                      <div class="product-header">
-                                        <h3>Merengos</h3>
-                                        <button class="close"><i class="fas fa-times"></i></button>
-                                      </div>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
-                                      <p><b>Cantidad disponible:</b> 10</p>
-                                      <button class="add-to-cart1">Agregar al carrito</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                          
-                              <div class="col">
-                                <div class="slider">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Galletas%20de%20chocolate/Galletasdechocolate%20(1).webp?raw=true" class="active">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Galletas%20de%20chocolate/Galletasdechocolate%20(2).webp?raw=true">
-                                </div>
-                                <div class="product-info">
-                                  <h3>Galletas De Chocolate</h3>
-                                  <p class="precio">$500</p>
-                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
-                                </div>
-                                <div class="popup">
-                                  <div class="popup-content">
-                                    <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Galletas%20de%20chocolate/Galletasdechocolate%20(1).webp?raw=true">
-                                    </div>
-                                    <div class="product-details">
-                                      <div class="product-header">
-                                        <h3>Galletas De Chocolate</h3>
-                                        <button class="close"><i class="fas fa-times"></i></button>
-                                      </div>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
-                                      <p><b>Cantidad disponible:</b> 10</p>
-                                      <button class="add-to-cart">Agregar al carrito</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col">
-                                <div class="slider">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Galletas%20de%20leche/Galletasdeleche%20(1).webp?raw=true" class="active">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Galletas%20de%20leche/Galletasdeleche%20(2).webp?raw=true">
-                                </div>
-                                <div class="product-info">
-                                  <h3>Galletas De Leche</h3>
+                                  <h3>Nevado de café </h3>
                                   <p class="precio">$3000</p>
                                   <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
                                 </div>
                                 <div class="popup">
                                   <div class="popup-content">
                                     <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Galletas%20de%20leche/Galletasdeleche%20(1).webp?raw=true">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/Nevado%20de%20cafe/Nevadodecafe%20(1).webp?raw=true">
                                     </div>
                                     <div class="product-details">
                                       <div class="product-header">
-                                        <h3>Galletas De Leche</h3>
+                                        <h3>Nevado de café </h3>
                                         <button class="close"><i class="fas fa-times"></i></button>
                                       </div>
                                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
                                       <p><b>Cantidad disponible:</b> 10</p>
                                       <button class="add-to-cart1">Agregar al carrito</button>
                                     </div>
@@ -691,26 +205,111 @@
                               </div>
                               <div class="col">
                                 <div class="slider">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Tostadas/Tostadas%20(1).webp?raw=true" class="active">
-                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Tostadas/Tostadas%20(2).webp?raw=true">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/T%C3%A9/t%C3%A9%20(1).webp?raw=true" class="active">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/T%C3%A9/t%C3%A9%20(2).webp?raw=true">
                                 </div>
                                 <div class="product-info">
-                                  <h3>Tostadas</h3>
-                                  <p class="precio">$500</p>
+                                  <h3>Té</h3>
+                                  <p class="precio">$1500</p>
                                   <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
                                 </div>
                                 <div class="popup">
                                   <div class="popup-content">
                                     <div class="product-image">
-                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20de%20pan/Galletas/1/Tostadas/Tostadas%20(1).webp?raw=true">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/T%C3%A9/t%C3%A9%20(1).webp?raw=true">
                                     </div>
                                     <div class="product-details">
                                       <div class="product-header">
-                                        <h3>Tostadas</h3>
+                                        <h3>Té</h3>
                                         <button class="close"><i class="fas fa-times"></i></button>
                                       </div>
                                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
-                                      <p><b>Peso:</b> 500 gramos</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          
+                              <div class="col">
+                                <div class="slider">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/Cebada/cebaada%20(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/Cebada/cebaada%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Cebada</h3>
+                                  <p class="precio">$2000</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/Cebada/cebaada%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Cebada</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="slider">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/Avena%20cubana/avenacubana%20(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/Avena%20cubana/avenacubana%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Avena cubana</h3>
+                                  <p class="precio">$2000</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/Avena%20cubana/avenacubana%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Avena cubana</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="slider">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/Jugo%20de%20guanabana%20en%20leche/Jugodeguanabana%20(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/Jugo%20de%20guanabana%20en%20leche/Jugodeguanabana%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Jugo de guanábana en leche </h3>
+                                  <p class="precio">$3000</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Novedades/Jugo%20de%20guanabana%20en%20leche/Jugodeguanabana%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Jugo de guanábana en leche </h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
                                       <p><b>Cantidad disponible:</b> 10</p>
                                       <button class="add-to-cart1">Agregar al carrito</button>
                                     </div>
@@ -718,14 +317,606 @@
                                 </div>
                               </div>
                         </div>
-                        
-
-                        
-                        <div class=" button-pagination">
-
-                          <button>1</button>
-                          <button>2</button>
+                    </div>
+                </div>
+              </div>
+              <div class="product-catalog" id="dulces" style="display: none;">
+                <div class="hero">
+                    <div class="conteiner">
+                        <div class="Nov">
+                            <p>DULCES</p>
                         </div>
+                        <hr>
+                    </div>
+                    <div id="nav-menu">
+                        <div class="conteiner" style="position: relative;">
+                            <button id="menu-button"><i class="fa fa-bars"></i></button>
+                            <nav id="menu">
+                                <ul>
+                                  <li><a href="#" onclick="mostrarCatalogo('novedades')">Novedades</a></li>
+                                  <li><a href="#" onclick="mostrarCatalogo('dulces')">Dulces</a></li>
+                                  <li><a href="#" onclick="mostrarCatalogo('empaquetados')">Paquetes</a></li>
+                                  <li><a href="#" onclick="mostrarCatalogo('Bebidas')">Bebidas</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="news" style="padding-top: 70px;">
+                    <div class="conteiner">
+                        <div class="row">
+                            <div class="col">
+                                <div class="slider">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/Chocolatina%20jumbo/Chocolatinajumbo%20(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/Chocolatina%20jumbo/Chocolatinajumbo%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Chocolatina jumbo</h3>
+                                  <p class="precio">$2000</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/Chocolatina%20jumbo/Chocolatinajumbo%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Chocolatina jumbo</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quod soluta id, illo eaque, qui illum a quasi assumenda hic perspiciatis ut asperiores, natus deserunt sed culpa minus officiis quos.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col">
+                                <div class="slider">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/Bombon%20bum%20unidad/bombon%20(1).webp?raw=true" class="active">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/Bombon%20bum%20unidad/bombon%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Bombón bum unidad</h3>
+                                  <p class="precio">$500</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/Bombon%20bum%20unidad/bombon%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Bombón bum unidad</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="slider">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/Gomitas/Gomitas%20(1).webp?raw=true" class="active">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/Gomitas/Gomitas%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Gomitas</h3>
+                                  <p class="precio">$2000</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/Gomitas/Gomitas%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Gomitas</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          
+                              <div class="col">
+                                <div class="slider">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/frunas/Frunas%20(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/frunas/Frunas%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Frunas</h3>
+                                  <p class="precio">$500</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/frunas/Frunas%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Frunas</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="slider">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/M_M/M&M's%20(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/M_M/M&M's%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>M&M</h3>
+                                  <p class="precio">$3000</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/M_M/M&M's%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>M&M</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="slider">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/Trident/trident%20(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/Trident/trident%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Trident</h3>
+                                  <p class="precio">$1000</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Dulces/1/Trident/trident%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Trident</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="product-catalog" id="empaquetados" style="display: none;">
+                <div class="hero">
+                    <div class="conteiner">
+                        <div class="Nov">
+                            <p>EMPAQUETADOS</p>
+                        </div>
+                        <hr>
+                    </div>
+                    <div id="nav-menu">
+                        <div class="conteiner" style="position: relative;">
+                            <button id="menu-button"><i class="fa fa-bars"></i></button>
+                            <nav id="menu">
+                                <ul>
+                                  <li><a href="#" onclick="mostrarCatalogo('novedades')">Novedades</a></li>
+                                  <li><a href="#" onclick="mostrarCatalogo('dulces')">Dulces</a></li>
+                                  <li><a href="#" onclick="mostrarCatalogo('empaquetados')">Paquetes</a></li>
+                                  <li><a href="#" onclick="mostrarCatalogo('Bebidas')">Bebidas</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="news" style="padding-top: 70px;">
+                    <div class="conteiner">
+                        <div class="row">
+                            <div class="col">
+                                <div class="slider">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Choclitos/choclitos(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Choclitos/choclitos(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Choclitos</h3>
+                                  <p class="precio">$1000</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Choclitos/choclitos(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Choclitos</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat assumenda esse illum expedita quos architecto ut. Esse exercitationem officiis reprehenderit sunt, iste rem. Repudiandae molestiae, natus impedit pariatur maxime debitis?</p>
+                                      <p><b>Peso:</b> 100 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col">
+                                <div class="slider">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Sabritas%20personal/sabritaspersonal%20(1).webp?raw=true" class="active">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Sabritas%20personal/sabritaspersonal%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Sabritas personal</h3>
+                                  <p class="precio">$2000</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Sabritas%20personal/sabritaspersonal%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Sabritas personal</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="slider">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Detodito/detoditos%20(1).webp?raw=true" class="active">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Detodito/detoditos%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Detodito</h3>
+                                  <p class="precio">$2500</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Detodito/detoditos%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Detodito</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          
+                              <div class="col">
+                                <div class="slider">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Sabritas%20familiar/sabritasfamiliar%20(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Sabritas%20familiar/sabritasfamiliar%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Sabritas familiar</h3>
+                                  <p class="precio">$7800</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Sabritas%20familiar/sabritasfamiliar%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Sabritas familiar</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="slider">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Tocineta/tocinetas%20(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Tocineta/tocinetas%20(1).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Tocineta</h3>
+                                  <p class="precio">$500</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Tocineta/tocinetas%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Tocineta</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 100 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="slider">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Pringles/springles%20(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Pringles/springles%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Pringles</h3>
+                                  <p class="precio">$9000</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Empaquetados/Pringles/springles%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Pringles</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 100 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>                                   
+                    </div>
+                </div>
+              </div>
+              <div class="product-catalog" id="Bebidas" style="display: none;">
+                <div class="hero">
+                    <div class="conteiner">
+                        <div class="Nov">
+                            <p>BEBIDAS</p>
+                        </div>
+                        <hr>
+                    </div>
+                    <div id="nav-menu">
+                        <div class="conteiner" style="position: relative;">
+                            <button id="menu-button"><i class="fa fa-bars"></i></button>
+                            <nav id="menu">
+                                <ul>
+                                  <li><a href="#" onclick="mostrarCatalogo('novedades')">Novedades</a></li>
+                                  <li><a href="#" onclick="mostrarCatalogo('dulces')">Dulces</a></li>
+                                  <li><a href="#" onclick="mostrarCatalogo('empaquetados')">Paquetes</a></li>
+                                  <li><a href="#" onclick="mostrarCatalogo('Bebidas')">Bebidas</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="news" style="padding-top: 70px;">
+                    <div class="conteiner">
+                        <div class="row">
+                            <div class="col">
+                                <div class="slider">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Aromatica/aromatica%20(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Aromatica/aromatica%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Aromatica</h3>
+                                  <p class="precio">$1000</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Aromatica/aromatica%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Aromatica</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat assumenda esse illum expedita quos architecto ut. Esse exercitationem officiis reprehenderit sunt, iste rem. Repudiandae molestiae, natus impedit pariatur maxime debitis?</p>
+                                      <p><b>Peso:</b> 100 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col">
+                                <div class="slider">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Cafe/Cafe%20(1).webp?raw=true" class="active">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Cafe/Cafe%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Cafe</h3>
+                                  <p class="precio">$2000</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Cafe/Cafe%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Cafe</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="slider">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Capuchino/capuchino%20(1).webp?raw=true" class="active">
+                                    <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Capuchino/capuchino%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Capuchino</h3>
+                                  <p class="precio">$3500</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Capuchino/capuchino%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Capuchino</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          
+                              <div class="col">
+                                <div class="slider">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Cerveza%20tradicional/cerveza%20(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Cerveza%20tradicional/cerveza%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Cerveza tradicional</h3>
+                                  <p class="precio">$7800</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Cerveza%20tradicional/cerveza%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Cerveza tradicional</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 150 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="slider">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Coca-cola/Coca-cola%20(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Coca-cola/Coca-cola%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Coca-cola</h3>
+                                  <p class="precio">$2500</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Coca-cola/Coca-cola%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Coca-cola</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 100 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="slider">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Jugo%20de%20guanabana%20en%20agua/Jugodeguanabana%20(1).webp?raw=true" class="active">
+                                  <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Jugo%20de%20guanabana%20en%20agua/Jugodeguanabana%20(2).webp?raw=true">
+                                </div>
+                                <div class="product-info">
+                                  <h3>Jugo de guanabana en agua</h3>
+                                  <p class="precio">$5000</p>
+                                  <button class="add-to-cart"><i class="fas fa-shopping-cart"></i><span>Agregar</span></button>
+                                </div>
+                                <div class="popup">
+                                  <div class="popup-content">
+                                    <div class="product-image">
+                                      <img src="https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Catalogo%20otros/Bebidas/Jugo%20de%20guanabana%20en%20agua/Jugodeguanabana%20(1).webp?raw=true">
+                                    </div>
+                                    <div class="product-details">
+                                      <div class="product-header">
+                                        <h3>Jugo de guanabana en agua</h3>
+                                        <button class="close"><i class="fas fa-times"></i></button>
+                                      </div>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a consequuntur aliquam ea voluptatum dolorum blanditiis facilis error laudantium fugit accusamus, quia debitis illum sed aut reiciendis distinctio necessitatibus dolor.</p>
+                                      <p><b>Peso:</b> 100 gramos</p>
+                                      <p><b>Cantidad disponible:</b> 10</p>
+                                      <button class="add-to-cart1">Agregar al carrito</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>                                   
                     </div>
                 </div>
               </div>
@@ -789,6 +980,6 @@
             </footer>
         </div>
     </body>
-    <script src="assets/js/mainCatalogo.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/mainCatalogo.js"></script>
 </html>

@@ -1,0 +1,146 @@
+
+/* Inicio desarrollo */
+
+/* Estilos apartir del main en HTML */
+
+
+  .location-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+
+    margin-top: -50px;
+  }
+  
+  .location-container img {
+    width: 90%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .location-container .info{
+    display: grid;
+    background-color: #EAE3D7;
+    width: 90%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .location-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contac .location-container .p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: normal;
+  }
+  
+  .location{
+    display: flex;
+    justify-content: center;
+  }
+    .location .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: 2px solid #744F28;
+      border-radius: 5px;
+      color: #744F28;
+      width: 40%;
+      font-family: var(--OpenSans);
+      font-weight: 800;
+      font-size: 12pt;
+      margin-bottom: 10px;
+    }
+      .location .button i {
+        margin-right: 5px;
+      }
+      .button span:hover {
+        transform: scale(1.1);
+        transition: all 0.5s;
+      }
+      .button:hover {
+        box-shadow: 0px 0px 8px 2px #744f28;
+        transition: all 0.5s;
+      }
+  
+  /* Media queries para diseño responsive */
+  
+  @media screen and (max-width: 767px) {
+    .location-container h2 {
+      font-size: 20px;
+    }
+    
+    .location-container p {
+      font-size: 14px;
+    }
+    
+    .location .button {
+      padding: 10px 15px;
+      font-size: 10pt;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .location-container img {
+      width: 90%;
+      height: 150px;
+    }
+    
+    .location-container h2 {
+      font-size: 18px;
+    }
+    
+    .location-container p {
+      font-size: 12px;
+    }
+    
+    .location .button {
+      padding: 8px 15px;
+      font-size: 9pt;
+    }
+  }
+  
+   .side .comments{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    font-family: var(--OpenSans);
+    color: #744F28;
+    font-weight: 800;
+  }
+
+    .comments h3:nth-child(1){
+      margin-bottom: 40px;
+    }
+    .comments #cover img{
+      background-color: #EAE3D7;
+      padding: 15px;
+      max-width: 100%;
+      height: auto;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+    }
+      #cover img:hover {
+        transform: scale(1.05);
+      }
+    .comments h3:nth-child(3){
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    .comments p{
+      font-size: 15px;
+      color: black;
+      font-weight: normal;
+    }

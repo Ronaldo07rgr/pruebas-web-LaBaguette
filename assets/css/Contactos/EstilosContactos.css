@@ -1,0 +1,152 @@
+@import url("fonts/YanoneKaffeesatz.css");
+@import url("fonts/OpenSans.css");
+
+:root {
+  --Caveat: "Caveat", cursive;
+  --YanoneKaffeesatz: "Yanone Kaffeesatz", sans-serif;
+  --OpenSans: "Open Sans", sans-serif;
+  --chinese:"chinese"
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+html {
+  background-color: whitesmoke; 
+}
+.conteiner{
+  margin: auto;
+  max-width: 1000px;
+  width: 100%;
+}
+
+
+/* Inicio desarrollo */
+
+
+
+/* Estilos apartir del main en HTML */
+ .side .comments{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    border: 2px solid #744F28;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    font-family: var(--OpenSans);
+    color: #744F28;
+    font-weight: 800;
+  }
+  .name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    color: #744F28;
+  }
+
+  .field-container {
+    position: relative;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .field {
+    width: 100%;
+    height: 40px;
+    color: #797979;
+    font-weight: 700;
+    border: 1px solid #797979;
+    background-color: #EAE3D7;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  .field.message-field {
+    resize: none;
+    height: 150px;
+}
+  .field:focus, .field.has-value {
+    border-color: #797979;
+    outline: none;
+    padding-left: 20px;
+  }
+  
+  .field:focus + label, .field.has-value + label {
+    top: -15px;
+    left: 0;
+    font-size: 12px;
+    color: #744F28;
+  }
+  
+  .label {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 16px;
+    transition: top 0.3s ease-in-out, font-size 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .email, .message {
+    margin-bottom: 30px;
+  }
+
+  .submit{
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 30px;
+    width: 120px;
+    cursor: pointer;
+    border: none;
+    background-color: #744F28;
+    color: #EAE3D7;
+    font-family: var(--OpenSans);
+    font-weight: 800;
+    font-size: 12pt;
+    
+  }
+
+  .modal {
+    position: fixed;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    background-color: #EAE3D7;
+    border: 1px solid #797979;
+    text-align: center;
+    font-family: var(--OpenSans);
+    font-weight: 800;
+    color: #744F28;
+    z-index: 10;
+    transition:  0.5s;
+}
+
+
+.close{
+    margin-top: 30px;
+    padding :15px ;
+    border-radius :30px ;
+    width :120px ;
+    font-size: 12pt;
+    cursor:pointer ;
+    border:none ;
+    background-color:#744F28 ;
+    color:#EAE3D7;
+    transition: all 3s;
+}
+.opacidad {
+  position : fixed ;
+  top :0 ;
+  left :0 ;
+  right :0 ;
+  bottom :0 ;
+  background-color : rgba(255,255,255,0.5) ;
+  z-index :5 ;
+}

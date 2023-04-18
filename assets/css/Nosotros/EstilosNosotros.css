@@ -1,0 +1,125 @@
+/* Inicio desarrollo */
+
+  /* Estilos apartir del main en HTML */
+  .mv{
+    border-top: 1px solid #744f28;
+    border-bottom: 1px solid #744f28;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
+    .mv p{
+      font-family: var(--OpenSans);
+      color: #744f28;
+      font-size: 12pt;
+      font-weight: 800;
+      padding: 10px;
+      text-transform: uppercase;
+    }
+
+  .mv-conteiner {
+    margin-top: 70px;
+    background-color: #EAE3D7;
+    padding: 10px;
+  }
+  
+  .mision-y-vision {
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 48px;
+    overflow: hidden;
+    align-items: center;
+  }
+      .mv-conteiner .mision-y-vision img{
+        width: 300px;
+        border-radius: 48px;
+      } 
+      .mv-conteiner .mision-y-vision h3{
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+      }
+      .mv-conteiner .mision-y-vision p{
+        margin-left: 30px;
+        text-align: justify;
+        width: 87%;
+        font-weight: 700;
+        line-height: 1.5;
+      }
+      .mv-conteiner .mision-y-vision .Text{
+        font-family: var(--OpenSans);
+        color: #744f28;
+      }
+      @media screen and (max-width: 768px) {
+
+        .mision-y-vision {
+          align-items: center;
+          width: 100%;
+          justify-content: center;
+          margin: 0px;
+          flex-direction: column;
+        }
+        .mision-y-vision img {
+          max-width: 100%;
+          height: auto;
+        }
+        .mision-y-vision .Text {
+          width: 100%;
+        }
+        .mision-y-vision .Text p{
+          margin: 19px;
+        }
+      }
+
+
+      /* estilos de quines somos */
+
+      .conteiner .QuienesSomos .info{
+        display: flex;
+        align-items: center;
+        padding-top: 80px;
+      }
+
+      .conteiner .QuienesSomos .info img{
+        width: 50%;
+        background-color: #EAE3D7;
+        padding: 20px
+      }
+      .conteiner .QuienesSomos .info p{
+        text-align: justify;
+        font-family: var(--Caveat);
+        padding: 20px;
+        font-size: 15pt;
+        line-height: 1.5;
+      }
+      .conteiner .QuienesSomos .infopie{
+        width: 50%;
+        margin-top: 30px;
+        padding: 10px;
+        font-family: var(--OpenSans);
+        border-left: 20px solid #744f28;
+        border-right: 20px solid #744f28;
+        font-size: 13pt;
+        color: #744f28;
+        font-weight: 800;
+      }
+      @media (max-width: 768px) {
+        .conteiner .QuienesSomos .info {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .conteiner .QuienesSomos .info img {
+          width: 90%;
+          order: -1;
+          margin-bottom: 20px;
+        }
+        .conteiner .QuienesSomos .infopie {
+          width: 100%;
+          margin-top: 20px;
+          padding: 0;
+        }
+      }

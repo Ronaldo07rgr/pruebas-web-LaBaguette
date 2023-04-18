@@ -57,7 +57,7 @@ html {
           width: 1146px;
         }
 
-    .conteiner .c-formulario{   
+    .conteiner .c-formulario{
       padding-top: 2.5rem;
     }
 
@@ -67,31 +67,24 @@ html {
         height: 770px;
         margin-left: 1.7rem;
       }
-      .inputs .welcome{
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        text-align: center;
-      }
-        .inputs .welcome div{
-          width: 250px;
-          background-color: #fff;
+        .inputs .join{
+          display: flex;
+          justify-content:center;
+          align-items: center;
+          text-align: center;
         }
-          .inputs div:nth-child(1) div:nth-child(1) p{
-            color: #744F28;
-            font-weight: bold;
-            font-family: var(--OpenSans);
-            font-size: 14pt;
+          .inputs .join div{
+            width: 250px;
+            background-color: #fff;
           }
+            .inputs div:nth-child(1) div:nth-child(1) p{
+              color: #744F28;
+              font-weight: bold;
+              font-family: var(--OpenSans);
+              font-size: 14pt;
+            }
 
-
-          .inputs form > div:nth-child(1) {
-            margin-top: 110px;
-          }
-
-          .inputs form > div:nth-child(2),div:nth-child(3){
-            margin-top: 50px;
-          }
+          
 
         .inputs label,input,select{
           color: #333333;
@@ -134,7 +127,6 @@ html {
                  -webkit-appearance: none; 
                  margin: 0; 
                 }
-      
 
         .inputs input:focus,select:focus{
           border: 1px solid white;
@@ -147,19 +139,12 @@ html {
       align-items: center;
       flex-direction: column;    
       margin: 10px; 
-    }      
-      .access .reCAPCHAT{
-        margin-top: 35px;
-        border: 1px solid #744F28;
-        margin-left: 20px;
-        height: 65px;
+    }    
+      .inputs .access div:nth-child(1){
         width: 250px;
+        padding-top: 12px;
       }
-      .inputs .access div:nth-child(2){
-        width: 250px;
-        padding-top: 25px;
-      }
-        .inputs .access div:nth-child(2) input{
+        .inputs .access div:nth-child(1) input{
           height: 65px;
           margin: 0px;
           border-radius: 30px;
@@ -167,23 +152,23 @@ html {
           background-color: #E9D7C5;
           cursor: pointer;
         }
-          .access div:nth-child(2) input:hover{
+          .access div:nth-child(1) input:hover{
             border: 1px solid white;
             box-shadow: 0 0 2px 2px #744F2870;
           }
-      .access div:nth-child(3) {
+      .access div:nth-child(2) {
         margin: 0;
         padding: 0;
         display: contents;
       }
-        .access div:nth-child(3) p{
-          padding: 15px;
+        .access div:nth-child(2) p{
+          padding: 25px;
           color: #333333;
         }
-          .access div:nth-child(3) p a{
+          .access div:nth-child(2) p a{
             color: #744F28;
           }
-            .access div:nth-child(3) a:hover{
+            .access div:nth-child(2) a:hover{
               font-weight: bold;
               text-decoration: underline;
             }

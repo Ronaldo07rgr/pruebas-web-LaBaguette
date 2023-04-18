@@ -1,0 +1,71 @@
+.img-and-text {
+    position: relative;
+    background-image: url('https://github.com/Ronaldo07rgr/Repositorio_LaBaguette/blob/master/assets/static/Sucursales-Contacto/Fondo-S-N.jpg?raw=true');
+    background-size: cover;
+    height: 560px;
+  }
+
+    .overlay {
+      background-color: rgba(116, 79, 40, 0.5);
+      position: absolute;
+      display: flex;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+      .img-and-text .contac{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        font-family: var(--OpenSans);
+      } 
+        .img-and-text .contac h1{
+          color: #EAE3D7;
+          margin-bottom: 15%;
+        }
+        .img-and-text .contac p{
+          color: white;
+          font-size: 15pt;
+          font-weight: 800;
+        }
+          /* Media queries para diseño responsive */
+  
+  @media screen and (max-width: 768px) {
+    .background-image{
+      margin-top: 60px;
+    }
+    .name {
+      flex-direction: column;
+    }
+    
+    .field-container {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+    .modal {
+      width: 40%;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .field {
+      height: 50px;
+      font-size: 14px;
+    }
+    
+    .label {
+      top: 10px;
+      font-size: 14px;
+    }
+    
+    .message .field {
+      height: 100px;
+    }
+    .modal {
+      width: 80%;
+    }
+  }
