@@ -1,0 +1,187 @@
+
+
+body{
+    display: flex;
+    background-color: #eae3d7;
+    margin: 0%;
+    font-family: "Open Sans", sans-serif ;
+    font-weight: 600;
+
+}
+.bot{
+    position: absolute;
+    left: 80%;
+    bottom: 7%;
+    cursor: pointer;
+    border: solid 2px gray;
+    border-radius: 24px;
+    background: rgb(233, 215, 197);
+    color: #352b19;
+    width: 160px;
+    height: 46px;
+    margin: 10px;
+    font-size: 15px;
+}
+.bot a{
+    color: unset;
+}
+
+
+.overlay {
+	background: rgba(153, 153, 153, 0.5);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+visibility: hidden;
+}
+.active {
+ visibility: visible;
+}
+.popup{
+  background: rgba(153, 153, 153, 0.5);
+  background-color: #EAE3D7;
+  padding: 20px;
+  width: 600px;
+}
+#bot:checked ~ .popup{
+ visibility: visible;
+}
+.tds{
+    display: flex;
+}
+.container{
+    display: flex;
+}
+.anun{
+    border: solid rgb(105, 105, 105) 2px;
+    margin: 40px;
+    border-radius: 35px;
+    width: 1105px;
+    height: 300px;
+    
+}
+.bts-imfo{
+    text-align: center;
+}
+.btn-modal{
+    margin-top: 100px;
+}
+.bts-imfo form{
+    margin: 90px;
+    font-size: 45px;
+    background-color: transparent;
+    border: none;
+    color: #744F28;
+    font-weight: 600;
+    cursor: pointer; 
+    transition: all 300ms ease;
+}
+.bts-imfo form a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.franu{
+    margin-top: -5px;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    font-size: 20px;
+    color: #744F28;
+
+}
+.frafi{
+    display: flex; 
+    flex-direction: column;
+    font-size: 20px;
+    margin-left: 40vh;
+}
+.ott{
+    margin-left: 60px;
+}
+.titu{
+    color: #744F28;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+.fa{
+    color: #eae3d7;
+    text-shadow: 10px 10px 20px black;
+    font-size: 298px;
+    position: absolute;
+    top: 40px;
+    left: 170px;
+    width: 24px;
+    height: 24px;
+} 
+.ima{
+    width: 626px;
+    height: 446px;
+}
+.fatex{
+    position: absolute;
+    top: 35vh;
+    left: 9vh;
+    color: white;
+    font-size: 40px;
+}
+.linea{
+    margin-left: 40px;
+    margin-left: 40px;
+    border: solid rgb(105, 105, 105) 1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* parte dos */
+
+.franu2{
+
+    display: flex;
+    font-size: 20px;
+    color: #744F28;
+}
+.frafi2{
+    display: flex; 
+    font-size: 20px;
+}
+.container-modal{
+    background-color: #eae3d7;
+    width: 1189px;
+    height: 992px;
+    visibility: hidden;
+    flex-direction: column;
+    position: fixed;
+    top: 0; left: 20;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+}
+#metodopago:target,
+#infopersonal:target {
+    visibility: visible;
+}
+.container-modal .num2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+}
+.franu2 p{
+    margin-left: 100px;
+}
+.frafi2 p{
+    margin-left: 100px;
+}
+.ult{
+    height: 370px;
+}
+.ult .frafi{
+    margin-left: 40vh;
+}
