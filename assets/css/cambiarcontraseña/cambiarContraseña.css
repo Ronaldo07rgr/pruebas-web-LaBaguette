@@ -1,0 +1,229 @@
+@import url("fonts/YanoneKaffeesatz.css");
+@import url("fonts/OpenSans.css");
+
+:root {
+  --Caveat: "Caveat", cursive;
+  --YanoneKaffeesatz: "Yanone Kaffeesatz", sans-serif;
+  --OpenSans: "Open Sans", sans-serif;
+  --chinese:"chinese"
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+
+
+html {
+  background-color: whitesmoke; 
+}
+
+/* Inicio desarrollo */
+
+    .Encabezado .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: dotted 1px #A6864F;
+      height: 105px;
+    }
+      .logo img{
+        width: 162px;
+        height: 141px;
+      }
+  .conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .conteiner .c-imagen{
+      display: flex;
+      justify-content: center;
+      padding-top: 1.5rem;
+      
+    }
+      .c-imagen div{
+        background-color: #744F2870;
+        padding: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+        .c-imagen img{
+          height: 700px;
+          width: 100%;
+          margin: 0 auto;
+        }
+
+    .conteiner .c-formulario{   
+      padding-top: 2.5rem;
+    }
+
+      .c-formulario .inputs{
+        background-color: rgb(234, 227, 215);
+        width: 520px;
+        height: 770px;
+        margin-left: 1.7rem;
+      }
+      .inputs .welcome{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+      }
+        .inputs .welcome div{
+          width: 250px;
+          background-color: #fff;
+        }
+          .inputs div:nth-child(1) div:nth-child(1) p{
+            color: #744F28;
+            font-weight: bold;
+            font-family: var(--OpenSans);
+            font-size: 14pt;
+          }
+
+
+          .inputs form > div:nth-child(1) {
+            margin-top: 110px;
+          }
+
+          .inputs form > div:nth-child(2),div:nth-child(3){
+            margin-top: 50px;
+          }
+
+        .inputs label,input,select{
+          color: #333333;
+          font-family: var(--OpenSans);
+          font-weight: bold;
+          font-size: 11pt;
+          margin-top: 33px;
+          padding:10px;
+        }
+
+        .inputs select,input{
+          background-color: #744F2875;
+          color: #EAE3D7;
+          font-family: var(--OpenSans);
+          font-size: 10pt;
+          font-weight: bold;
+          margin-left: 35px;
+          margin-top: 35px;
+          width: 272px;
+          height: 37px;
+          border-radius: 10px;
+          border: none;
+          text-align: -webkit-center;
+          outline: none;
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+        .inputs label{
+          display: inline-block;
+          width: 185px;
+          vertical-align: middle;
+        }
+
+          ::placeholder { color: #EAE3D7; }
+
+          input[type=number]::-webkit-inner-spin-button, 
+          input[type=number]::-webkit-outer-spin-button 
+                { 
+                 -webkit-appearance: none; 
+                 margin: 0; 
+                }
+      
+
+        .inputs input:focus,select:focus{
+          border: 1px solid white;
+          box-shadow: 0 0 2px 2px #744F2870;
+        }
+
+    .conteiner .inputs .access{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;    
+      margin: 10px; 
+    }      
+
+      
+      .inputs .access div:nth-child(2){
+        width: 250px;
+        padding-top: 25px;
+      }
+        .inputs .access div:nth-child(2) input{
+          height: 65px;
+          margin: 0px;
+          border-radius: 30px;
+          color: #482D11;
+          background-color: #E9D7C5;
+          cursor: pointer;
+        }
+          .access div:nth-child(2) input:hover{
+            border: 1px solid white;
+            box-shadow: 0 0 2px 2px #744F2870;
+          }
+      .access div:nth-child(3) {
+        margin: 0;
+        padding: 0;
+        display: contents;
+      }
+        .access div:nth-child(3) p{
+          padding: 15px;
+          color: #333333;
+        }
+          .access div:nth-child(3) p a{
+            color: #744F28;
+          }
+            .access div:nth-child(3) a:hover{
+              font-weight: bold;
+              text-decoration: underline;
+            }
+
+.tex{
+    text-align: center;
+    opacity: 0.8;
+    margin: 10%;
+}
+.tex2{
+    text-align: center;
+    opacity: 0.8;
+    margin: 10%;
+}
+.regis{
+       margin: 2%; 
+}
+h4{
+    text-align: left;
+    margin: 2%;
+}
+.bod{
+    margin-top: 70px;
+
+}
+.botons{
+    align-items: center;
+    cursor: pointer;
+    border: solid 2px gray;
+    border-radius: 24px;
+    background: rgb(233, 215, 197);
+    color: #352b19;
+    width: 200px;
+    height: 46px;
+    margin: 10px;
+    font-size: 15px;
+}
+.botons a{
+    color: unset;
+}
+
+.bod{
+    margin-top: 100px;  
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
