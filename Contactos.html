@@ -102,6 +102,7 @@
         </header>
     
         <main>
+            <form action="contactos.php"method="post">
             <div class="background-image">
                 <div class="img-and-text">
                     <div class="overlay">
@@ -120,26 +121,26 @@
                         <h3>DEJA TU MENSAJE EN EL SIGUIENTE <br>FORMULARIO</h3>
                         <div class="name">
                           <div class="field-container">
-                            <input type="text" class="field" required>
+                            <input type="text"name="nombre" class="field" required>
                             <label class="label">Nombre</label>
                           </div>
                           <div class="field-container">
-                            <input type="text" class="field" required>
+                            <input type="text"name="apellido"class="field" required>
                             <label class="label">Apellido</label>
                           </div>
                         </div>
                         <div class="email">
                           <div class="field-container">
-                            <input type="email" class="field" required>
+                            <input type="email"name="correo" class="field" required>
                             <label class="label">Correo electrónico</label>
                           </div>
                         </div>
                         <div class="message">
                           <div class="field-container">
-                            <textarea class="field message-field" required></textarea>
+                            <textarea class="field message-field"name="mensaje" required></textarea>
                             <label class="label">Mensaje</label>
                           </div>
-                          <button class="submit">Enviar</button>
+                          <input class="botons" type="submit" value="ENVIAR">
                         </div>
                     </div>
 
@@ -151,6 +152,7 @@
                 </div>
                 <div class="opacidad" style="display: none;"></div>
             </div>
+        </form>
         </main>
 
 
