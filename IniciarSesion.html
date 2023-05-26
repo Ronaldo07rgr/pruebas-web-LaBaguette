@@ -39,10 +39,9 @@
                                 <p>Bienvenido</p>
                             </div>
                         </div>
-                        <form action="LaBaguette.html" method="GET">
+                        <form name="form1" method="post" action="iniciarsesion.php">
                             <div class="iniciars">
-                                <form name="form1" method="post" action="agregar.php">
-                                <label for="documento" name="td">Tipo de documento</label>
+                                <label for="documento" name="tdoc">Tipo de documento</label>
                                 <select name="tdoc" required>        
                                     <option value="value" selected >Cedula De Ciudadania</option>
                                     <option value="ce" selected>Cedula Extranjera</option>  
@@ -52,28 +51,25 @@
 
                             <div>
                                 <label for="n-documento">Número de documento</label>
-                                <input type="numb" id="tentacles" placeholder="Dijite numero de identificación" name="numdoc" required>
+                                <input type="number" id="tentacles" placeholder="Dijite numero de identificación" name="numb" required>
                             </div>
 
                             <div>
                                 <label for="contraseña">Contraseña</label>
-                                <input type="contra" id="password" placeholder="Dijite su contraseña" name="contra"required>
+                                <input type="text" id="password" placeholder="Dijite su contraseña" name="contra"required>
                             </div> 
 
                             <div class="access">
                                 <div class="reCAPCHAT">
-                                    
                                 </div>
                                 <div>
                                     <div>
-                                        <a href="/Index.html">
                                             <input class="botons" type="submit" value="INGRESAR">
-                                        </a>
                                     </div>
                                 </div>
                                 <div>
-                                    <p>¿Olvidaste tu contraseña?<a href="/olvideContraseña.html"> recuperala dando click aquí </a></p> 
-                                    <p>¿No Tienes una cuenta? <a href="/labaguette/labaguette/Registrarse.html">registrate dando click aqui</a></p>
+                                    <p>¿Olvidaste tu contraseña?<a href="./olvideContraseña.html"> recuperala dando click aquí </a></p> 
+                                    <p>¿No Tienes una cuenta? <a href="./Registrarse.html">registrate dando click aqui</a></p>
                                 </div>
                             </div>
                         </form>
