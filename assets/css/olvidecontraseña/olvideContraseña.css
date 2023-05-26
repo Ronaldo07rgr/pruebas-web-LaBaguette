@@ -175,9 +175,9 @@ h2{
     align-items: center;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
 }
 .bot{
-    
     align-items: center;
     cursor: pointer;
     border: solid 2px gray;
@@ -203,7 +203,7 @@ h2{
 }
 .bo{
 
-  color: #EAE3D7;
+  color: #000000;
   font-family: var(--OpenSans);
   font-size: 10pt;
   font-weight: bold;
@@ -254,7 +254,6 @@ h2{
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
-visibility: hidden;
 }
 .active {
  visibility: visible;
